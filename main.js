@@ -13,10 +13,10 @@ KSH_profile.addEventListener('click', (event) => {
     window.location.href = 'KSH_profile.html';
   });
 
-donateLink.addEventListener('click', (event) => {
-  event.preventDefault();
-  window.location.href = 'donate.html';
-});
+// donateLink.addEventListener('click', (event) => {
+//   event.preventDefault();
+//   window.location.href = 'donate.html';
+// });
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
