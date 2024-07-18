@@ -1,91 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KSH</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="profile/KSH_profile.html" id="KSH_profile">김승한</a></li>
-        <li><a href="services/services.html" id="services">Services</a></li>
-        <li>
-          <a href="donate/donate.html" id="donate-link">
-            <span class="donate-text">후원</span>
-            <div class="donate-animation">
-              <span class="animation-item"></span>
-              <span class="animation-item"></span>
-              <span class="animation-item"></span>
-              <span class="animation-item"></span>
-            </div>
-          </a>
-        </li>
-        
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
-    <section id="hero">
-      <div class="profile-box">
-        <img src="cd448c689992180a7005486e12405cd8.jpg" alt="main-image" class="main-image">
+    <link rel="stylesheet" href="donate.css">
+    <title>후원</title>
+  </head>
+    
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../profile/KSH_profile.html" id="KSH_profile">김승한</a></li>
+          <li><a href="../services/services.html">Services</a></li>
+          <li>
+            <a href="donate.html" id="donate-link">
+              <span class="donate-text">후원</span>
+              <div class="donate-animation">
+                <span class="animation-item"></span>
+                <span class="animation-item"></span>
+                <span class="animation-item"></span>
+                <span class="animation-item"></span>
+              </div>
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div class="donate-container">
+      <div class="donate-box">
+        <h1>후원하기</h1>
+        <p><a1>농협</a1> 김승한</p>
+        <p id="account-number">
+            <span id="copyText">653015-56-186925</span>
+        </p>
+        <p id="a2"><a2>▲눌러서 복사하기▲</a2></p>
+        <a href="#" class="donate-button" id="donate_toss-button">후원하기
+        </a>
+        <div id="popup-overlay" class="popup-overlay">
+          <div id="popup-content" class="popup-content">
+            <span class="close-button">&times;</span>
+            <h2><img src="img_toss.jpg" width="30%" height="auto" alt="toss_logo-image" class="toss_logo-image">
+            </h2>
+            <p><img src="img_0187.png" width="50%" height="auto" alt="toss-image" class="toss-image">
+            </p>
+          </div>
+        </div>
       </div>
-      <h1>나가 그냥</h1>
-      <a href="https://yeongheung.hs.jne.kr/yeongheung_hs/ad/fm/foodmenu/selectFoodMenuView.do?mi=149934" class="cta">ㅗ</a>
-    </section>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <p class="a2">
-        <a><img src="insta_logo.png" width="25" id="img1" ></a>
-        <a href="trap_pororo.jpg" id="insta_trap">Instagram</a>
-      </p>
-    </section>
-
-    <section id="services">
-      <h2>할 일</h2>
-      <ul>
-        <li>디자인</li>
-        <li>후원</li>
-        <li>호스팅</li>
-      </ul>
-    </section>
-
-    <section id="favorite">
-      <h2>즐찾</h2>
-      <ul>
-        <li>밥</li>
-        <li>미정</li>
-        <li>몰라</li>
-      </ul>
-    </section>
-
-    <!-- <section id="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send Message</button>
-      </form>
-    </section> -->
-  </main>
-
-  <footer>
-    <p>&copy; 2024 KSH HOME. All rights unreserved.</p>
-    <p>서울대학교 반도체공학과</p>
-    <p>세브란스 병원</p>
-  </footer>
-  <script src="main.js"></script>
-</body>
-</html>
+    </div>
+    
+    <script src="donate.js"></script>
+  </body>
